@@ -1,0 +1,9 @@
+{
+  "id": "AUTH-002",
+  "summary": "Rotate a public-service signing key",
+  "owner": "security-maintainer",
+  "risk": "elevated",
+  "evidence": [{"claim": "Old key is rejected", "reference": "verification/key-rotation.txt"}],
+  "decision": "Require independent review before activation",
+  "stop_condition": "Stop if rollback cannot be demonstrated"
+}
