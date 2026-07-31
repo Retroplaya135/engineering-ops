@@ -1,0 +1,9 @@
+{
+  "id": "DOC-001",
+  "summary": "Clarify the supported configuration example",
+  "owner": "documentation-maintainer",
+  "risk": "routine",
+  "evidence": [{"claim": "Example parses as JSON", "reference": "tests/test_checker.py"}],
+  "decision": "Accept after the checker passes",
+  "stop_condition": "Stop if the example changes runtime behavior"
+}
