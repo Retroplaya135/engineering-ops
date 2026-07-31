@@ -1,0 +1,9 @@
+{
+  "id": "DATA-003",
+  "summary": "Export records whose redistribution rights are unknown",
+  "owner": "data-owner",
+  "risk": "blocked",
+  "evidence": [{"claim": "Ownership is unresolved", "reference": "review/ownership-status.md"}],
+  "decision": "Do not export",
+  "stop_condition": "Remain stopped until the data owner records explicit authorization"
+}
